@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="text_username">UserName</string>
+    <string name="text_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_registrarse">Sing Up</string>
+    <string name="text_welcome">Welcome,</string>
+    <string name="introduction">Introduction</string>
+    <string name="text_introduction">The managing home is a modality for restoring rights that consists of accompaniment, advice and economic support for family strengthening, This measure applies to families that have the conditions for the care, affection and care of children, girls under 18 years with disabilities.</string>
+    <string name="nota">Important:</string>
+    <string name="text_nota">The technical guideline for the Family Support and Strengthening Modalities, for the Restoration of the Rights of Children, Girls under 18 years of age with disability, with their rights threatened, unobserved or violated, establishes that the way of linking to the modality of the manager home program, must be by referral from any administrative authority to the ICBF.</string>
+    <string name="txt_fab">menu</string>
+    <string name="messageerrorUsername">Invalide user name</string>
+
+
+</resources>

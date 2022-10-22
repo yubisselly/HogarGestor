@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="ToDoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="Ir al super mercado"/>
+        <Button
+            android:id="@+id/btn_detail_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verde_manzana"
+            android:layout_weight="1"
+            android:text=">"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="Llevar el carro a mantenimiento"/>
+        <Button
+            android:id="@+id/btn_detail_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verde_manzana"
+            android:layout_weight="1"
+            android:text=">"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="or a lavanderia"/>
+        <Button
+            android:id="@+id/btn_detail_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verde_manzana"
+            android:layout_weight="1"
+            android:text=">"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
