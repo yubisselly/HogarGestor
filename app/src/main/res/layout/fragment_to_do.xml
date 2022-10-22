@@ -22,14 +22,14 @@
             android:layout_weight="3"
             android:textSize="17sp"
             android:textColor="@color/black"
-            android:text="Ir al super mercado"/>
+            android:text="@string/text_patrones"/>
         <Button
             android:id="@+id/btn_detail_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/teal_200"
             android:layout_weight="1"
-            android:text=">"/>
+            android:text="@string/go"/>
 
     </LinearLayout>
 
@@ -47,14 +47,14 @@
             android:layout_weight="3"
             android:textSize="17sp"
             android:textColor="@color/black"
-            android:text="Llevar el carro a mantenimiento"/>
+            android:text="@string/history"/>
         <Button
             android:id="@+id/btn_detail_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/teal_200"
             android:layout_weight="1"
-            android:text=">"/>
+            android:text="@string/go"/>
 
 </LinearLayout>
 
@@ -72,14 +72,14 @@
             android:layout_weight="3"
             android:textSize="17sp"
             android:textColor="@color/black"
-            android:text="or a lavanderia"/>
+            android:text="@string/info"/>
         <Button
             android:id="@+id/btn_detail_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/teal_200"
             android:layout_weight="1"
-            android:text=">"/>
+            android:text="@string/go"/>
 
 
     </LinearLayout>

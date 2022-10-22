@@ -16,4 +16,12 @@
     <string name="Phone">Teléfono</string>
     <string name="Save">Guardar</string>
     <string name="profile">Creación de Perfil</string>
+    <string name="logout">Salir</string>
+    <string name="Editarperfil">Edita Prefil</string>
+    <string name="AboutPediatria">Pediatra asignado</string>
+    <string name="todo">Por Hacer</string>
+    <string name="text_patrones">Registrar patrones de crecimiento</string>
+    <string name="go">Ir</string>
+    <string name="history">Historial</string>
+    <string name="info">Información</string>
 </resources>

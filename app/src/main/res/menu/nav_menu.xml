@@ -6,10 +6,25 @@
     <item
         android:id="@+id/nav_todo"
         android:icon="@android:drawable/ic_menu_agenda"
-        android:title="To Do"/>
+        android:title="@string/todo"/>
+    <item
+        android:id="@+id/nav_pediatric"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/AboutPediatria"/>
+
+    <item
+        android:id="@+id/nav_edt_profile"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/Editarperfil"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/logout"/>
+
     <item
         android:id="@+id/nav_about"
-        android:icon="@android:drawable/ic_menu_info_details"
+        android:icon="@android:drawable/ic_dialog_alert"
         android:title="About"/>
 
 </menu>

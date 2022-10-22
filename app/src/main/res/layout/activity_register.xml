@@ -54,7 +54,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nit">
+        android:hint="Nit/ID">
         <EditText
             android:id="@+id/editNit"
             android:layout_width="match_parent"
@@ -111,5 +111,14 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:onClick="onRegisterSave"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_media_previous"
+        app:tint="@color/white"/>
 
 </LinearLayout>

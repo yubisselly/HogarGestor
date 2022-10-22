@@ -15,12 +15,15 @@ class MainActivity : AppCompatActivity()
     private var edtUsername: EditText? = null
     private var edtPassword: TextInputEditText? = null
     override fun onCreate(savedInstanceState: Bundle?)
+
     {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(findViewById(R.id.my_toobar))
         edtUsername = findViewById(R.id.edtUsername)
         edtPassword = findViewById(R.id.edtPassword)
+
     }
 
     fun onlogin(botonLogin: View)
