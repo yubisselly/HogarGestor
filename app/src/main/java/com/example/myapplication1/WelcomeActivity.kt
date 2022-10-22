@@ -15,7 +15,7 @@ class WelcomeActivity : AppCompatActivity() {
             Snackbar.make(view, R.string.txt_fab,Snackbar.LENGTH_SHORT).show()
         }
         fab.setOnClickListener { view->
-            val intent = Intent(this, ToDoMainActivity2::class.java)
+            val intent = Intent(this,ToDoMainActivity2::class.java)
             startActivity(intent)
         }
     }

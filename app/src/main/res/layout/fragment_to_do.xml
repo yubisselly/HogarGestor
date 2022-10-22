@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="16dp"
-    tools:context="ToDoFragment">
+    tools:context=".ToDoFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:id="@+id/btn_detail_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/verde_manzana"
+            android:backgroundTint="@color/teal_200"
             android:layout_weight="1"
             android:text=">"/>
 
@@ -52,7 +52,7 @@
             android:id="@+id/btn_detail_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/verde_manzana"
+            android:backgroundTint="@color/teal_200"
             android:layout_weight="1"
             android:text=">"/>
 
@@ -77,7 +77,7 @@
             android:id="@+id/btn_detail_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/verde_manzana"
+            android:backgroundTint="@color/teal_200"
             android:layout_weight="1"
             android:text=">"/>
 

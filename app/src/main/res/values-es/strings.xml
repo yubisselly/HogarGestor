@@ -11,4 +11,9 @@
     <string name="text_nota">El lineamiento técnico para las Modalidades de Apoyo y fortalecimiento a la Familia, para el Restablecimiento de Derechos de Niños, Niñas menores 18 años con discapacidad, con sus derechos amenazados, inobservados o vulnerados, establece que la forma de vinculación a la modalidad del programa de hogar gestor, debe ser por remisión de cualquier autoridad administrativa al ICBF.</string>
     <string name="txt_fab">menú</string>
     <string name="messageerrorUsername">Nombre usuario inválido</string>
+    <string name="Name">Nombre</string>
+    <string name="LastName">Apellido</string>
+    <string name="Phone">Teléfono</string>
+    <string name="Save">Guardar</string>
+    <string name="profile">Creación de Perfil</string>
 </resources>
