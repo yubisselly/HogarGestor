@@ -17,13 +17,23 @@ class RegisterActivity : AppCompatActivity() {
     private var editEmail: EditText?=null
     private var editPassword: EditText?=null
     private var checkBoxPolices: CheckBox?=null
-    private val editEmail_patter: Pattern= Pattern.compile("[a-zA-Z0-9]*"+"@{1,1}"+"[a-zA-Z0-9]*"+"."+"[a-zA-Z]*"+"."+"[a-zA-Z]*")
+    private val editEmail_patter: Pattern= Pattern.compile("[a-zA-Z0-9]*"+
+            "@{1,1}"+
+            "[a-zA-Z0-9]*"+
+            "."+
+            "[a-zA-Z]*"+
+            "." +
+            "[a-zA-Z]*")
     private val nameAndLast_Pattern: Pattern= Pattern.compile("[a-zA-Z]*")
     private val password_Pattern: Pattern= Pattern.compile("^"+
             "(?=.*[0-9])"+
             "(?=.*[a-z])"+
             "(?=.*[A-Z])"+
-            ".{8,}"
+            "(?=.*[@#$%^&+=.])"+
+            "(?=\\S+$)"+
+            ".{8,}"+
+            "$"
+
         /*       +
              "$"+
               "@"+
