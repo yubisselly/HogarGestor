@@ -33,17 +33,6 @@ class RegisterActivity : AppCompatActivity() {
             "(?=\\S+$)"+
             ".{8,}"+
             "$"
-
-        /*       +
-             "$"+
-              "@"+
-              "#"+
-              "%"+
-              "="+
-              "+"+
-              "&"+
-              "."
-       */
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -59,6 +48,11 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     fun onRegisterSave(view: View) {
+
+       // var messageregistro= getString(R.string.messageerrorUsername)
+       // var messagepolitica= getString(R.string.messageerrorUsername)
+       // var messageerrorpassw= getString(R.string.messageerrorUsername)
+
         if(validateForm()){
             Toast.makeText(this,"Registro exitoso",Toast.LENGTH_LONG).show()
 
@@ -71,12 +65,22 @@ class RegisterActivity : AppCompatActivity() {
         var validate= true
 
         var name: String=editName!!.text.toString()
+        var lastname: String=editLastName!!.text.toString()
         var password: String=editPassword!!.text.toString()
         var email: String=editEmail!!.text.toString()
 
         if (!checkBoxPolices!!.isChecked) {
             validate=false
         }
+        if (TextUtils.isEmpty(lastname)) {
+            editLastName!!.error = "Required"
+            validate = false
+        }else if(!nameAndLast_Pattern.matcher(lastname.replace(" ","")).matches())
+        {
+            editLastName!!.error="name no valid"
+            validate=false
+        }else  editLastName!!.error=null
+
         if (TextUtils.isEmpty(name)) {
             editName!!.error = "Required"
             validate = false
@@ -102,7 +106,7 @@ class RegisterActivity : AppCompatActivity() {
                 validate=false
             }else if (!editEmail_patter.matcher(email).matches())
         {
-            editEmail!!.error="the @ is required"
+            editEmail!!.error="the '@' is required"
             validate=false
         }
 
