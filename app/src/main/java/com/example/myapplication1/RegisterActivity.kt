@@ -3,6 +3,7 @@ package com.example.myapplication1
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Patterns
 import android.view.View
 import android.widget.CheckBox
 import android.widget.EditText
@@ -17,6 +18,7 @@ class RegisterActivity : AppCompatActivity() {
     private var editEmail: EditText?=null
     private var editPassword: EditText?=null
     private var checkBoxPolices: CheckBox?=null
+   // private val editEmail_pattern: Pattern= Patterns.EMAIL_ADDRESS
     private val editEmail_patter: Pattern= Pattern.compile("[a-zA-Z0-9]*"+
             "@{1,1}"+
             "[a-zA-Z0-9]*"+
@@ -25,7 +27,8 @@ class RegisterActivity : AppCompatActivity() {
             "." +
             "[a-zA-Z]*")
     private val nameAndLast_Pattern: Pattern= Pattern.compile("[a-zA-Z]*")
-    private val password_Pattern: Pattern= Pattern.compile("^"+
+    private val password_Pattern: Pattern= Pattern.compile(
+        "^"+
             "(?=.*[0-9])"+
             "(?=.*[a-z])"+
             "(?=.*[A-Z])"+
