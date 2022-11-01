@@ -18,6 +18,8 @@ class WelcomeActivity : AppCompatActivity() {
         fab.setOnClickListener { view->
             val intent = Intent(this,ToDoMainActivity2::class.java)
             startActivity(intent)
+
+
         }
     }
 }

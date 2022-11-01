@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">My Application1</string>
-    <string name="text_username">UserName</string>
+    <string name="text_username">User Name</string>
     <string name="text_password">Password</string>
     <string name="text_login">Login</string>
     <string name="text_registrarse">Sing Up</string>
-    <string name="text_welcome">Welcome,</string>
-    <string name="introduction">Introduction</string>
-    <string name="text_introduction">The managing home is a modality for restoring rights that consists of accompaniment, advice and economic support for family strengthening, This measure applies to families that have the conditions for the care, affection and care of children, girls under 18 years with disabilities.</string>
+    <string name="text_welcome">Welcome to Retornemos,</string>
+    <string name="introduction">Mission</string>
+    <string name="text_introduction">Retornemos is projected as a construction applied both to the user and to the market, seeking to indirectly influence the processes of RECYCLING, REDUCTION and REUSE of waste that warrant it. So, we see ourselves in 5 years as an institutional platform at the national level hand in hand with the national government, affiliated companies in a social context and training processes.</string>
     <string name="nota">Important:</string>
-    <string name="text_nota">The technical guideline for the Family Support and Strengthening Modalities, for the Restoration of the Rights of Children, Girls under 18 years of age with disability, with their rights threatened, unobserved or violated, establishes that the way of linking to the modality of the manager home program, must be by referral from any administrative authority to the ICBF.</string>
+    <string name="text_nota">Retornemos arises as a response to the problem of waste management in training centers. In turn, it gives rise to the resolution and application of the educational process for the work of the Analysis and Development of Information Systems (ADSI) curriculum in which the group of developers is enrolled. We bet on the proper management of usable waste and the education of apprentices, trainers and administrators of the complex, seeking to reposition eco-friendly elements such as ECO-BOTTLES and the circularity of the global market.</string>
     <string name="txt_fab">menu</string>
     <string name="messageerrorUsername">Invalide user name</string>
     <string name="Name">Name</string>
@@ -18,12 +18,13 @@
     <string name="profile">Profile Creation</string>
     <string name="logout">Log Out</string>
     <string name="Editarperfil">Edit Profile</string>
-    <string name="AboutPediatria">Assigned pediatrician</string>
+    <string name="AboutPediatria">Assigned place</string>
     <string name="todo">To Do</string>
     <string name="text_patrones">Record child growth patterns</string>
     <string name="go">Go</string>
     <string name="history">History</string>
     <string name="info">Information</string>
+    <string name="text_google">Use Google</string>
 
 
 </resources>

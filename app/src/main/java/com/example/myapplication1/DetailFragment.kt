@@ -1,5 +1,7 @@
 package com.example.myapplication1
 
+
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,8 +10,11 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 
 class DetailFragment : Fragment() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
+
     }
 
     override fun onCreateView(
@@ -29,4 +34,12 @@ class DetailFragment : Fragment() {
         tvLugar.text=lugar
         return fragmento
     }
+
+/*    fun onModifyTask(view : View){
+        val intent = Intent(this,TaskModifyActivity::class.java)
+        startActivity(intent)
+
+    } */
+
+
 }

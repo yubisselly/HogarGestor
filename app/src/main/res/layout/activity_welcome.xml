@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:titleTextColor="@color/white"
-        android:background="@color/teal_200"
+        android:background="@color/teal_700"
         android:elevation="8dp"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
@@ -49,7 +49,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
-            android:src="@drawable/senalogo"
+            android:src="@drawable/logotipocolor"
             android:layout_margin="28dp"/>
     </LinearLayout>
 
