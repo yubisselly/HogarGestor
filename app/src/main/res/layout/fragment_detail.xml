@@ -7,10 +7,19 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context="DetailFragment">
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/iniciobotella"/>
+        android:layout_width="214dp"
+        android:layout_height="282dp"
+        android:src="@drawable/iniciobotella" />
+
+        <TextView
+            android:id="@+id/tvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="0"/>
+
     <TextView
         android:id="@+id/tvTarea"
         android:layout_width="wrap_content"
@@ -35,25 +44,23 @@
 
     <Button
         android:id="@+id/btnmodify"
-        android:background="@color/teal_200"
+        android:background="@color/teal_700"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:onClick="onModifyTask"
         android:text="Modificar tarea"
         android:textSize="10dp"
         android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/btndelete"
-        android:background="@color/teal_200"
+        android:background="@color/teal_700"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
-        android:onClick ="onEliminarTask"
         android:text="Eliminar tarea"
         android:textSize="10dp"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"/>
 
 </LinearLayout>

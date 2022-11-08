@@ -10,6 +10,13 @@
     tools:context=".NewTaskActivity">
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextId2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/editTextTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,9 +35,10 @@
         android:hint="Place"/>
 
     <Button
+        android:id="@+id/btsavetask"
         android:background="@color/teal_700"
         android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_gravity="center"
         android:onClick="onSaveTask"
         android:text="Create new Task"

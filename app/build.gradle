@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -34,6 +35,11 @@ android {
 }
 
 dependencies {
+
+    implementation 'com.google.firebase:firebase-analytics-ktx:20.1.1'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.1.0'
+    // Also declare the dependency for the Google Play services library and specify its version
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
 
     def roomVersion = "2.4.3"
 

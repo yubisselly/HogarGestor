@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">My Application1</string>
+    <string name="app_name">Retornemos</string>
     <string name="text_username">User Name</string>
     <string name="text_password">Password</string>
     <string name="text_login">Login</string>
-    <string name="text_registrarse">Sing Up</string>
+    <string name="text_registrarse">Sing In</string>
     <string name="text_welcome">Welcome to Retornemos,</string>
     <string name="introduction">Mission</string>
     <string name="text_introduction">Retornemos is projected as a construction applied both to the user and to the market, seeking to indirectly influence the processes of RECYCLING, REDUCTION and REUSE of waste that warrant it. So, we see ourselves in 5 years as an institutional platform at the national level hand in hand with the national government, affiliated companies in a social context and training processes.</string>
@@ -16,7 +16,6 @@
     <string name="Phone">Phone</string>
     <string name="Save">Save</string>
     <string name="profile">Profile Creation</string>
-    <string name="logout">Log Out</string>
     <string name="Editarperfil">Edit Profile</string>
     <string name="AboutPediatria">Assigned place</string>
     <string name="todo">To Do</string>
@@ -24,7 +23,12 @@
     <string name="go">Go</string>
     <string name="history">History</string>
     <string name="info">Information</string>
-    <string name="text_google">Use Google</string>
+    <string name="text_google">Login Email</string>
+    <string name="text_singout">Sign out</string>
+    <string name="prefs_file">com.example.myapplication1.PREFERENCE_FILE_KEY</string>
+    <string name="register_email">Register email</string>
+    <string name="forgotPassword">Forgot your Password?</string>
+    <string name="text_forgotpass">Enter the registered email to recover password and follow the steps</string>
 
 
 </resources>

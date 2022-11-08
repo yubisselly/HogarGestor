@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application1</string>
+    <string name="app_name">Retornemos</string>
     <string name="text_username">Nombre de Usuario</string>
     <string name="text_password">Contraseña</string>
     <string name="text_login">Acceder</string>
@@ -16,7 +16,6 @@
     <string name="Phone">Teléfono</string>
     <string name="Save">Guardar</string>
     <string name="profile">Creación de Perfil</string>
-    <string name="logout">Salir</string>
     <string name="Editarperfil">Edita Prefil</string>
     <string name="AboutPediatria">Lugar asignado</string>
     <string name="todo">Por Hacer</string>
@@ -24,5 +23,10 @@
     <string name="go">Ir</string>
     <string name="history">Historial</string>
     <string name="info">Información</string>
-    <string name="text_google">Usar Google</string>
+    <string name="text_google">Ingresar con Correo</string>
+    <string name="text_singout">Cerrar Sesión</string>
+    <string name="prefs_file">com.example.myapplication1.PREFERENCE_FILE_KEY</string>
+    <string name="register_email">Registrar correo</string>
+    <string name="forgotPassword">¿Ha olvidado tu Contraseña?</string>
+    <string name="text_forgotpass">Ingrese el correo registrado para recuperar contraseña y siga los pasos</string>
 </resources>

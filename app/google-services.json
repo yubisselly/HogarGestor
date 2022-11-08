@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022469668175",
+    "project_id": "apphogargestor-44fc5",
+    "storage_bucket": "apphogargestor-44fc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022469668175:android:19d2156201771f3930993a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022469668175-j7707gisslrb3c97da0q5jaom5rqej1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication1",
+            "certificate_hash": "6ab71a3c408461b760ea3df103d7edd10d0dcf6a"
+          }
+        },
+        {
+          "client_id": "1022469668175-67blpsbqo8e6jhephrdmsre2jc494utk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQkNuEbXdWV3DEnv6zm6q1O1wUJnuQC3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022469668175-67blpsbqo8e6jhephrdmsre2jc494utk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
