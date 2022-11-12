@@ -11,3 +11,13 @@ data class ToDo(
     val time : String,
     val place : String
 )
+
+@Entity
+data class Product(
+    @PrimaryKey(autoGenerate = true)
+    val id : Int,
+    val name : String,
+    val description : String,
+    val price : Int,
+    val image : String
+)

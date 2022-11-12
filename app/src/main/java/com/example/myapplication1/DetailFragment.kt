@@ -14,6 +14,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import com.example.myapplication1.room_database.ToDo
 import com.example.myapplication1.room_database.ToDoDatabase
+import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
@@ -59,12 +60,13 @@ class DetailFragment : Fragment() {
             val positiveButton = { dialogpositivo: DialogInterface, which: Int ->
                 val db = ToDoDatabase.getDatabase(requireActivity())
                 val todoDAO = db.todoDao()
+                val dbFirebase = FirebaseFirestore.getInstance()
                 var idTask: String = tvID.text.toString()
                 val task = ToDo(idTask.toInt(), tarea.toString(), hora.toString(), lugar.toString())
                 runBlocking {
                     launch {
                         todoDAO.deleteTask(task)
-
+                        dbFirebase.collection("ToDo").document(idTask).delete()
                     }
                 }
                 val actividadtodoActiviti = Intent(inflater.context, ToDoMainActivity2::class.java)

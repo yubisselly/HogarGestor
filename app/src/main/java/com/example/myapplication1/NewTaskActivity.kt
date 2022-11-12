@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 import com.example.myapplication1.room_database.ToDo
 import com.example.myapplication1.room_database.ToDoDatabase
+import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
@@ -43,17 +44,34 @@ class NewTaskActivity : AppCompatActivity() {
         var id: String = editTextId.text.toString()
         val db = ToDoDatabase.getDatabase(this)
         val todoDAO = db.todoDao()
+        val dbFirebase = FirebaseFirestore.getInstance()
         val task = ToDo(id.toInt(),title,time,place)
         runBlocking {
                 launch {
                     if(id.equals("0")) {
                         var result = todoDAO.insertTask(task)
                         if (result != 1L) {
+                            dbFirebase.collection("ToDo").document(result.toString())
+                                .set(
+                                    hashMapOf(
+                                        "title" to title,
+                                        "time" to time,
+                                        "place" to place
+                                    )
+                                )
                             setResult(Activity.RESULT_OK)
                             finish()
                     }
                 }else{
                     todoDAO.updateTask(task)
+                        dbFirebase.collection("ToDo").document(id)
+                            .set(
+                                hashMapOf(
+                                    "title" to title,
+                                    "time" to time,
+                                    "place" to place
+                                )
+                            )
                         finish()
                 }
             }
