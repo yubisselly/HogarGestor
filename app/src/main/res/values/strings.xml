@@ -8,7 +8,7 @@
     <string name="introduction">Mission</string>
     <string name="text_introduction">Retornemos is projected as a construction applied both to the user and to the market, seeking to indirectly influence the processes of RECYCLING, REDUCTION and REUSE of waste that warrant it. So, we see ourselves in 5 years as an institutional platform at the national level hand in hand with the national government, affiliated companies in a social context and training processes.</string>
     <string name="nota">Important:</string>
-    <string name="text_nota">Retornemos arises as a response to the problem of waste management in training centers. In turn, it gives rise to the resolution and application of the educational process for the work of the Analysis and Development of Information Systems (ADSI) curriculum in which the group of developers is enrolled. We bet on the proper management of usable waste and the education of apprentices, trainers and administrators of the complex, seeking to reposition eco-friendly elements such as ECO-BOTTLES and the circularity of the global market.</string>
+    <string name="text_nota">Retornemos arises as a response to the problem of waste management in training centers. In turn, it gives rise to the resolution and application of the educational process for the work of the Analysis and Development of Information Systems. We bet on the proper management of usable waste and the education of apprentices, trainers and administrators of the complex, seeking to reposition eco-friendly.</string>
     <string name="txt_fab">menu</string>
     <string name="messageerrorUsername">Invalide user name</string>
     <string name="Name">Name</string>
@@ -29,6 +29,8 @@
     <string name="register_email">Register email</string>
     <string name="forgotPassword">Forgot your Password?</string>
     <string name="text_forgotpass">Enter the registered email to recover password and follow the steps</string>
+    <string name="Value">Value</string>
+    <string name="Detail">Detail</string>
 
 
 </resources>

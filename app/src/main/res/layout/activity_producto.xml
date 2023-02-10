@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductoActivity"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_NombrePA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        android:textSize="23sp"
+        tools:layout_editos_absoluteX="80dp"
+        tools:layout_editos_absoluteY="85dp"/>
+    <TextView
+        android:id="@+id/textView_PrecioPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Value"
+        tools:layout_editos_absoluteX="80dp"
+        tools:layout_editos_absoluteY="132dp"/>
+    <TextView
+        android:id="@+id/textView_DetallePA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Detail"
+        tools:layout_editos_absoluteX="80dp"
+        tools:layout_editos_absoluteY="195dp"/>
+    <ImageView
+        android:id="@+id/imagenViewAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/textView_DetallePA"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editos_absoluteX="150dp"/>
+
+
+
+
+</LinearLayout>

@@ -8,7 +8,7 @@
     <string name="introduction">Misión</string>
     <string name="text_introduction">Retornemos se proyecta como una contrucción aplicada tanto en el usuario como en el mercado buscando incidir de manera indirecta en los procesos del RECICLAJE, la REDUCCIÓN y REUTILIZACIÓN de los residuos que así lo ameriten. Entonces, nos vemos en el plazo de 5 años como una plataforma institucional a nivel nacional de la mano del gobierno nacional, empresas afiliadas en contexto social y procesos formativos</string>
     <string name="nota">Importante:</string>
-    <string name="text_nota">Retornemos surge como respuesta a la problemática del manejo de los residuos en los centros formativos. A su vez, da pie a la resolución y aplicación del proceso educativo para el trabajo del currículum de Análisis y Desarrollo de Sistemas de información (ADSI) en la que se encuentra matriculado el grupo de desarrolladores. Apostamos al manejo adecuado de los residuos aprovechables y a la educación de los aprendices, formadores y administrativos del complejo buscando reposicionar elementos eco-amigables como las ECO-BOTELLAS y la circularidad del mercado global.</string>
+    <string name="text_nota">Retornemos surge como respuesta a la problemática del manejo de los residuos en los centros formativos. A su vez, da pie a la resolución y aplicación del proceso educativo para el trabajo del currículum de Análisis y Desarrollo de Sistemas de información. Apostamos al manejo adecuado de los residuos aprovechables y a la educación de los aprendices, formadores y administrativos del complejo buscando reposicionar elementos eco-amigables.</string>
     <string name="txt_fab">menú</string>
     <string name="messageerrorUsername">Nombre usuario inválido</string>
     <string name="Name">Nombre</string>
@@ -16,7 +16,7 @@
     <string name="Phone">Teléfono</string>
     <string name="Save">Guardar</string>
     <string name="profile">Creación de Perfil</string>
-    <string name="Editarperfil">Edita Prefil</string>
+    <string name="Editarperfil">Editar Prefil</string>
     <string name="AboutPediatria">Lugar asignado</string>
     <string name="todo">Por Hacer</string>
     <string name="text_patrones">Registrar patrones de crecimiento</string>
@@ -29,4 +29,6 @@
     <string name="register_email">Registrar correo</string>
     <string name="forgotPassword">¿Ha olvidado tu Contraseña?</string>
     <string name="text_forgotpass">Ingrese el correo registrado para recuperar contraseña y siga los pasos</string>
+    <string name="Value">Valor</string>
+    <string name="Detail">Detalle</string>
 </resources>

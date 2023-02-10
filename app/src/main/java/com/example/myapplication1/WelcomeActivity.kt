@@ -19,7 +19,7 @@ class WelcomeActivity : AppCompatActivity() {
     private var textemail : TextView?=null
     private var textprovedor : TextView?=null
     private  var btnlogOut: Button?= null
-
+    private var btnProducto: Button?= null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,6 +44,11 @@ class WelcomeActivity : AppCompatActivity() {
             val intento = Intent(this,MainActivity::class.java)
             startActivity(intento)
          //   onBackPressed()
+        }
+        btnProducto=findViewById(R.id.btn_Productos)
+        btnProducto?.setOnClickListener {
+            val intent = Intent(this,ListaProductosActivity::class.java)
+            startActivity(intent)
         }
 
         val fab: View=findViewById(R.id.fab)

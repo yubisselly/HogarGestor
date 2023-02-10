@@ -13,7 +13,7 @@ data class ToDo(
 )
 
 @Entity
-data class Product(
+data class Producto(
     @PrimaryKey(autoGenerate = true)
     val id : Int,
     val name : String,

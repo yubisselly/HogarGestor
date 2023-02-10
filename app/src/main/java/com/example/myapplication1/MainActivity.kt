@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity()
         var username: String = edtUsername!!.text.toString()
         var userpassword: String = edtPassword!!.text.toString()
 
-        if (username == "ejemplo@ejemplo.com")
+        if (username == "prueba@prueba.com")
         {
             if (userpassword == "123") {
                 val positiveButton = { dialogpositivo: DialogInterface, which: Int ->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagenViewProductoIP"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/gmail_icon"
+        tools:layout_editos_absoluteX="57dp"
+        tools:layout_editos_absoluteY="29dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewNombreIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            tools:layout_editos_absoluteX="182dp"
+            tools:layout_editos_absoluteY="51dp"/>
+        <TextView
+            android:id="@+id/textViewPrecioIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0,00"
+            tools:layout_editos_absoluteX="182dp"
+            tools:layout_editos_absoluteY="85dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

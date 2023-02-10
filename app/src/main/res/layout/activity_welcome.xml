@@ -95,7 +95,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
+  <!--  <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -125,7 +125,44 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/iniciobotella"/>
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Residuos Aprovechables"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:justificationMode="inter_word"
+                android:text="Precios de los residuos aprovechables 2022"/>
+            <Button
+                android:id="@+id/btn_Productos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:justificationMode="inter_word"
+                android:text="Lista de residuos"/>
+        </LinearLayout>
+
     </LinearLayout>
+
 
 
 </LinearLayout>

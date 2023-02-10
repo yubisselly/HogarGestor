@@ -38,5 +38,4 @@ class ToDoMainActivity2 : AppCompatActivity() {
         val navController=navHostFragment.navController
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
-
-    }
+}
